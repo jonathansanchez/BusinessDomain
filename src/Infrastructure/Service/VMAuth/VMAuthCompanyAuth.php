@@ -1,8 +1,8 @@
 <?php
 
-namespace Drupal\domain\Infrastructure\Service\VMAuth;
+namespace Drupal\business\Infrastructure\Service\VMAuth;
 
-use Drupal\domain\Domain\Company\CompanyAuth;
+use Drupal\business\Domain\Company\CompanyAuth;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 

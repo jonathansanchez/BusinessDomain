@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\domain\Application\Services\Company;
+namespace Drupal\business\Application\Services\Company;
 
-use Application\Services\Company\Request\AuthRequest;
-use Drupal\domain\Domain\Company\CompanyAuth;
-use Drupal\domain\Domain\Company\CompanyRepository;
+use Drupal\business\Application\Services\Company\Request\AuthRequest;
+use Drupal\business\Domain\Company\CompanyAuth;
+use Drupal\business\Domain\Company\CompanyRepository;
 
 final class LogInCompanyService
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\domain\Domain\Administrator;
+namespace Drupal\business\Domain\Administrator;
 
 /**
  * Interface AdministratorRepository
- * @package Drupal\domain\Domain\Administrator
+ * @package Drupal\business\Domain\Administrator
  *
  * This file must be implemented by infrastructure
  * to persist a Administrator.

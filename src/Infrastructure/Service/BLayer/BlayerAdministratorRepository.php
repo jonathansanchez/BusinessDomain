@@ -1,8 +1,8 @@
 <?php
 
-namespace Drupal\domain\Infrastructure\Service\BLayer;
+namespace Drupal\business\Infrastructure\Service\BLayer;
 
-use Drupal\domain\Domain\Administrator\AdministratorRepository;
+use Drupal\business\Domain\Administrator\AdministratorRepository;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 

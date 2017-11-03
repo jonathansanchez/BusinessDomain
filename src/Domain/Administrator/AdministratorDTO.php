@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\domain\Domain\Administrator;
+namespace Drupal\business\Domain\Administrator;
 
 class AdministratorDTO
 {
@@ -16,8 +16,6 @@ class AdministratorDTO
 
     public $lastName;
 
-    //public $password;
-
     public $phone;
 
     public function __construct(Administrator $administrator)
@@ -29,7 +27,6 @@ class AdministratorDTO
         $this->firstName    = $administrator->firstName();
         $this->lastName     = $administrator->lastName();
         $this->phone        = $administrator->phone();
-        //$this->password     = $administrator->password();
 
         if (null != $administrator->password() ) {
             $this->password = $administrator->password();

@@ -1,7 +1,0 @@
-name: Domain
-description: Module Domain Core
-package: Domain
-version: 8.x.1
-
-type: module
-core: 8.x

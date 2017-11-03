@@ -1,8 +1,8 @@
 <?php
 
-namespace Drupal\domain\Domain\Company;
+namespace Drupal\business\Domain\Company;
 
-use Drupal\domain\Domain\Address\Address;
+use Drupal\business\Domain\Address\Address;
 
 class Company
 {
@@ -66,6 +66,16 @@ class Company
     public function activate()
     {
         $this->status = 'ACTIVE';
+    }
+
+    public function mercy()
+    {
+        $this->status = 'MERCY';
+    }
+
+    public function pending()
+    {
+        $this->status = 'PENDING';
     }
 
     private function setRut($rut)

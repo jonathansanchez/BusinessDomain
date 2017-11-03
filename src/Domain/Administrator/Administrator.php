@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\domain\Domain\Administrator;
+namespace Drupal\business\Domain\Administrator;
 
 class Administrator
 {

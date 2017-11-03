@@ -1,28 +1,19 @@
 <?php
 
-namespace Drupal\domain\Domain\Company;
+namespace Drupal\business\Domain\Company;
 
-use Drupal\domain\Domain\Address\Address;
-use Drupal\domain\Domain\Administrator\Administrator;
+use Drupal\business\Domain\Address\Address;
+use Drupal\business\Domain\Administrator\Administrator;
 
 /**
  * Interface CompanyRepository
- * @package Drupal\domain\Domain\Company
+ * @package Drupal\business\Domain\Company
  *
  * This file must be implemented by infrastructure
  * to persist a Company.
  */
 interface CompanyRepository
 {
-    /**
-     * @param string $companyRut
-     * @param string $administratorRut
-     * @param string $password
-     *
-     * @return mixed
-     */
-    public function authenticate(string $companyRut, string $administratorRut, string $password);
-
     /**
      * @param Address       $address
      * @param Company       $company

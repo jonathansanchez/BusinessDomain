@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\domain\Domain\Address;
+namespace Drupal\business\Domain\Address;
 
 class Address
 {

@@ -1,8 +1,11 @@
 <?php
 
-namespace Application\Services\Company\Request;
+namespace Drupal\business\Application\Services\Company\Request;
 
-
+/**
+ * Class AuthRequest DTO
+ * @package Drupal\business\Application\Services\Company\Request
+ */
 class AuthRequest
 {
     /**

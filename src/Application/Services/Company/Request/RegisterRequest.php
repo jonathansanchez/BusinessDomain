@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\domain\Application\Services\Company\Request;
+namespace Drupal\business\Application\Services\Company\Request;
 
 /**
  * Class RegisterRequest DTO
- * @package Drupal\domain\Application\Services
+ * @package Drupal\business\Application\Services\Company\Request
  */
 class RegisterRequest
 {

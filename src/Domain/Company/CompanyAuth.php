@@ -1,10 +1,10 @@
 <?php
 
-namespace Drupal\domain\Domain\Company;
+namespace Drupal\business\Domain\Company;
 
 /**
  * Interface CompanyAuth
- * @package Drupal\domain\Domain\Company
+ * @package Drupal\business\Domain\Company
  *
  * This file must be implemented by infrastructure
  * to authenticate a Company.

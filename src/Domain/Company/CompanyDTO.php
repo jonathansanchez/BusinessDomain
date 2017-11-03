@@ -1,9 +1,8 @@
 <?php
 
-namespace Drupal\domain\Domain\Company;
+namespace Drupal\business\Domain\Company;
 
-
-use Drupal\domain\Domain\Address\AddressDTO;
+use Drupal\business\Domain\Address\AddressDTO;
 
 class CompanyDTO
 {

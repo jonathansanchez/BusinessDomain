@@ -1,3 +1,0 @@
-Drupal\domain\Domain\Company:
-  type: entity
-  table: product

@@ -1,0 +1,18 @@
+services:
+  business.service_authcompany:
+    class: Drupal\business\Infrastructure\Service\VMAuth\VMAuthCompanyAuth
+    arguments: ['@http_client']
+
+  business.service_companyrepository:
+    class: Drupal\business\Infrastructure\Service\BLayer\BlayerCompanyRepository
+    arguments: ['@http_client']
+
+  business.service_administratorrepository:
+    class: Drupal\business\Infrastructure\Service\BLayer\BlayerAdministratorRepository
+    arguments: ['@http_client']
+
+  business.registercompany_service:
+    class: Drupal\business\Application\Services\Company\RegisterCompanyService
+    arguments:
+      - '@business.service_companyrepository'
+      - '@business.service_administratorrepository'

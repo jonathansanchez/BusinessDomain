@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\domain\Application\Services\Company;
+namespace Drupal\business\Application\Services\Company;
 
-use Drupal\domain\Application\Services\Company\Request\RegisterRequest;
-use Drupal\domain\Domain\Address\Address;
-use Drupal\domain\Domain\Administrator\Administrator;
-use Drupal\domain\Domain\Administrator\AdministratorRepository;
-use Drupal\domain\Domain\Company\Company;
-use Drupal\domain\Domain\Company\CompanyRepository;
+use Drupal\business\Application\Services\Company\Request\RegisterRequest;
+use Drupal\business\Domain\Address\Address;
+use Drupal\business\Domain\Administrator\Administrator;
+use Drupal\business\Domain\Administrator\AdministratorRepository;
+use Drupal\business\Domain\Company\Company;
+use Drupal\business\Domain\Company\CompanyRepository;
 
 final class RegisterCompanyService
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Drupal\domain\Infrastructure\Service\BLayer;
+namespace Drupal\business\Infrastructure\Service\BLayer;
 
-use Drupal\domain\Domain\Address\Address;
-use Drupal\domain\Domain\Address\AddressDTO;
-use Drupal\domain\Domain\Administrator\Administrator;
-use Drupal\domain\Domain\Administrator\AdministratorDTO;
-use Drupal\domain\Domain\Company\Company;
-use Drupal\domain\Domain\Company\CompanyDTO;
-use Drupal\domain\Domain\Company\CompanyRepository;
+use Drupal\business\Domain\Address\Address;
+use Drupal\business\Domain\Address\AddressDTO;
+use Drupal\business\Domain\Administrator\Administrator;
+use Drupal\business\Domain\Administrator\AdministratorDTO;
+use Drupal\business\Domain\Company\Company;
+use Drupal\business\Domain\Company\CompanyDTO;
+use Drupal\business\Domain\Company\CompanyRepository;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
@@ -29,20 +29,8 @@ final class BlayerCompanyRepository implements CompanyRepository
     /**
      * {@inheritdoc}
      */
-    public function authenticate(string $companyRut, string $administratorRut, string $password) { }
-
-    /**
-     * {@inheritdoc}
-     */
     public function register(Address $address, Company $company, Administrator $administrator)
     {
-        /*print_r(
-            json_encode([
-                'company'       => new CompanyDTO($company, new AddressDTO($address)),
-                'administrator' => new AdministratorDTO($administrator)
-            ])
-        );
-        exit();*/
         try {
             $response = $this
                 ->client

@@ -1,0 +1,7 @@
+name: Business
+description: Module Domain Core Business
+package: Business
+version: 8.x.1
+
+type: module
+core: 8.x
